@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed Rezaul Karim Bappi | Senior Travel Consultant & Flight Specialist</title>
+  
+  <!-- Meta for SEO and Social Sharing -->
+  <meta name="description" content="Official Portfolio of Mohammed Rezaul Karim Bappi, Senior Travel Consultant based in Haras Bin Qasim, Manfuhah, Riyadh. Flight ticketing, visa consultation, holiday packages & 24/7 support." />
+  <meta name="keywords" content="Travel Consultant, Riyadh Travel Agent, Flight Booking Manfuhah, Bappi Travel, Bangladesh to KSA Flights, Umrah Packages, Visa Consultant" />
+  <meta name="author" content="Mohammed Rezaul Karim Bappi" />
+
+  <!-- Google Fonts: Modern, soft, elegant typography (Outfit & Plus Jakarta Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            heading: ['Outfit', 'sans-serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif']
+          },
+          colors: {
+            royal: {
+              50: '#eef6ff',
+              100: '#d9ecff',
+              200: '#bcdeff',
+              300: '#8eccff',
+              400: '#58afff',
+              500: '#2f8fff',
+              600: '#186df5',
+              700: '#1354e1',
+              800: '#1644b6',
+              900: '#183c8f',
+              950: '#0d1a45'
+            },
+            crimson: {
+              50: '#fff1f2',
+              100: '#ffe4e6',
+              200: '#fecdd3',
+              300: '#fda4af',
+              400: '#fb7185',
+              500: '#f43f5e',
+              600: '#e11d48',
+              700: '#be123c',
+              800: '#9f1239',
+              900: '#881337',
+              950: '#4c0519'
+            },
+            darkBg: '#090d1a',
+            darkCard: '#10172c',
+            darkBorder: '#1c284e'
+          },
+          animation: {
+            'float-slow': 'floating 6s ease-in-out infinite',
+            'float-reverse': 'floatingRev 7s ease-in-out infinite',
+            'pulse-glow': 'pulseGlow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'radar': 'radarSweep 4s linear infinite'
+          },
+          keyframes: {
+            floating: {
+              '0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
+              '50%': { transform: 'translateY(-14px) rotate(2deg)' }
+            },
+            floatingRev: {
+              '0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
+              '50%': { transform: 'translateY(12px) rotate(-2deg)' }
+            },
+            pulseGlow: {
+              '0%, 100%': { opacity: '0.4', transform: 'scale(1)' },
+              '50%': { opacity: '0.8', transform: 'scale(1.06)' }
+            },
+            radarSweep: {
+              '0%': { transform: 'rotate(0deg)' },
+              '100%': { transform: 'rotate(360deg)' }
+            }
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #090d1a;
+    }
+    .light ::-webkit-scrollbar-track {
+      background: #f1f5f9;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(to bottom, #1d4ed8, #e11d48);
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(to bottom, #2563eb, #f43f5e);
+    }
+
+    /* Glassmorphism helpers */
+    .glass-dark {
+      background: rgba(16, 23, 44, 0.75);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-light {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(226, 232, 240, 0.9);
+    }
+
+    /* Glowing gradients */
+    .gradient-royal-crimson {
+      background: linear-gradient(135deg, #1d4ed8 0%, #3b82f6 50%, #e11d48 100%);
+    }
+    .text-gradient-royal-red {
+      background: linear-gradient(135deg, #3b82f6 20%, #60a5fa 45%, #f43f5e 80%, #e11d48 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .text-gradient-light {
+      background: linear-gradient(135deg, #1e40af 10%, #2563eb 50%, #be123c 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    /* Boarding Pass Perforated Border Effect */
+    .ticket-edge-left {
+      position: relative;
+    }
+    .ticket-edge-left::before {
+      content: '';
+      position: absolute;
+      left: -12px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background-color: var(--page-bg);
+    }
+  </style>
+</head>
+
+<body class="bg-darkBg text-slate-100 font-sans antialiased selection:bg-crimson-600 selection:text-white transition-colors duration-300 relative overflow-x-hidden" id="pageBody">
+
+  <!-- BACKGROUND DECORATIONS -->
+  <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+    <!-- Royal Blue Ambient Orb -->
+    <div class="absolute -top-32 -left-32 w-96 md:w-[600px] h-96 md:h-[600px] bg-royal-700/20 dark:bg-royal-600/15 rounded-full blur-[130px] animate-pulse-glow"></div>
+    <!-- Crimson Red Ambient Orb -->
+    <div class="absolute top-1/3 -right-32 w-80 md:w-[500px] h-80 md:h-[500px] bg-crimson-600/20 dark:bg-crimson-600/12 rounded-full blur-[140px] animate-pulse-glow" style="animation-delay: 2s;"></div>
+    <!-- Subtle Grid Lines -->
+    <div class="absolute inset-0 bg-[linear-gradient(to_right,#1e293b12_1px,transparent_1px),linear-gradient(to_bottom,#1e293b12_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
+  </div>
+
+  <!-- ==================== HEADER / NAVIGATION ==================== -->
+  <header class="sticky top-0 z-50 w-full transition-all duration-300 py-3" id="mainHeader">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav class="flex items-center justify-between px-5 py-3 rounded-2xl glass-dark border border-white/10 shadow-2xl transition-all duration-300" id="navbarContainer">
+        
+        <!-- Brand Logo / Badge -->
+        <a href="#hero" class="flex items-center gap-3 group">
+          <div class="w-11 h-11 rounded-xl gradient-royal-crimson p-[2px] shadow-lg shadow-royal-600/30 group-hover:scale-105 transition-transform duration-300">
+            <div class="w-full h-full bg-darkBg rounded-[10px] flex items-center justify-center font-heading font-extrabold text-white text-lg">
+              <span class="text-royal-400">B</span><span class="text-crimson-500">K</span>
+            </div>
+          </div>
+          <div>
+            <div class="font-heading font-extrabold text-base sm:text-lg tracking-tight text-white flex items-center gap-1.5" id="navBrandName">
+              M. R. K. BAPPI
+              <span class="inline-block w-2 h-2 rounded-full bg-crimson-500 animate-ping"></span>
+            </div>
+            <p class="text-[11px] font-medium text-slate-400 tracking-wider uppercase flex items-center gap-1">
+              <span>✈</span> Travel Consultant
+            </p>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <div class="hidden md:flex items-center gap-8 font-medium text-sm text-slate-300" id="desktopNavLinks">
+          <a href="#about" class="hover:text-royal-400 transition-colors">About</a>
+          <a href="#services" class="hover:text-royal-400 transition-colors">Services</a>
+          <a href="#planner" class="hover:text-crimson-400 transition-colors flex items-center gap-1">
+            <span class="text-xs text-crimson-400">✦</span> Trip Planner
+          </a>
+          <a href="#routes" class="hover:text-royal-400 transition-colors">Popular Routes</a>
+          <a href="#contact" class="hover:text-royal-400 transition-colors">Contact</a>
+        </div>
+
+        <!-- Action Buttons: Theme Toggle & WhatsApp -->
+        <div class="flex items-center gap-3">
+          <!-- Dark / Light Theme Toggle -->
+          <button id="themeToggleBtn" aria-label="Toggle Theme" class="p-2.5 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 text-amber-400 dark:text-yellow-300 border border-slate-700/60 shadow-sm transition-all duration-300">
+            <!-- Sun Icon (for dark mode) -->
+            <svg id="sunIcon" class="w-5 h-5 block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+            </svg>
+            <!-- Moon Icon (for light mode) -->
+            <svg id="moonIcon" class="w-5 h-5 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+            </svg>
+          </button>
+
+          <!-- WhatsApp Primary Button -->
+          <a href="https://wa.me/966545352165?text=Hello%20Mohammed%20Rezaul%20Karim%20Bappi,%20I%20am%20interested%20in%20your%20travel%20and%20ticket%20services." 
+             target="_blank" 
+             rel="noopener noreferrer"
+             class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-xl font-heading font-semibold text-xs sm:text-sm text-white bg-gradient-to-r from-royal-600 to-crimson-600 hover:from-royal-500 hover:to-crimson-500 shadow-lg shadow-royal-600/25 hover:shadow-crimson-600/30 transition-all duration-300 transform active:scale-95">
+            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+            </svg>
+            <span>WhatsApp Me</span>
+          </a>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button id="mobileMenuBtn" aria-label="Open Menu" class="md:hidden p-2 rounded-xl bg-slate-800 text-slate-300 hover:text-white">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </nav>
+
+      <!-- Mobile Dropdown Menu -->
+      <div id="mobileMenu" class="hidden md:hidden mt-2 p-5 rounded-2xl glass-dark border border-white/10 flex flex-col gap-4 text-center font-medium">
+        <a href="#about" class="py-2 text-slate-200 hover:text-royal-400 border-b border-white/5 mobile-link">About</a>
+        <a href="#services" class="py-2 text-slate-200 hover:text-royal-400 border-b border-white/5 mobile-link">Services</a>
+        <a href="#planner" class="py-2 text-crimson-400 font-semibold border-b border-white/5 mobile-link">✦ Trip Planner</a>
+        <a href="#routes" class="py-2 text-slate-200 hover:text-royal-400 border-b border-white/5 mobile-link">Popular Routes</a>
+        <a href="#contact" class="py-2 text-slate-200 hover:text-royal-400 mobile-link">Contact</a>
+        <a href="https://wa.me/966545352165" target="_blank" class="w-full py-3 rounded-xl gradient-royal-crimson text-white font-heading font-semibold text-sm shadow-lg flex items-center justify-center gap-2">
+          <span>Chat on WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="hero" class="relative pt-8 pb-20 md:pt-16 md:pb-32 overflow-hidden z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Column: High-Impact Typography & Credibility -->
+        <div class="lg:col-span-7 text-center lg:text-left">
+          
+          <!-- Riyadh Badge -->
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-royal-950/80 dark:bg-royal-900/40 border border-royal-500/30 text-royal-300 text-xs sm:text-sm font-medium mb-6 backdrop-blur-md shadow-sm">
+            <span class="inline-block w-2.5 h-2.5 rounded-full bg-emerald-500 animate-ping"></span>
+            <span class="font-semibold text-white">Riyadh, KSA</span>
+            <span class="text-slate-400">|</span>
+            <span class="text-slate-300">Haras Bin Qasim, Manfuhah</span>
+          </div>
+
+          <!-- Main Headline -->
+          <h1 class="text-4xl sm:text-5xl md:text-6xl font-heading font-black tracking-tight leading-[1.1] mb-6">
+            <span>Seamless Journeys,</span><br/>
+            <span class="text-gradient-royal-red">Global Destinations.</span>
+          </h1>
+
+          <!-- Consultant Name & Role -->
+          <div class="mb-6">
+            <h2 class="text-xl sm:text-2xl font-bold font-heading text-slate-200" id="heroNameText">
+              Mohammed Rezaul Karim Bappi
+            </h2>
+            <p class="text-crimson-400 font-semibold text-sm sm:text-base tracking-wide flex items-center justify-center lg:justify-start gap-2 mt-1">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+              </svg>
+              Senior Travel Consultant & International Ticketing Specialist
+            </p>
+          </div>
+
+          <!-- Description -->
+          <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed mb-8">
+            Providing tailored international flight bookings, fastest visa support, Umrah packages, and emergency date changes. Delivering transparent fares and dedicated 24/7 personal support across Saudi Arabia, Bangladesh, and worldwide destinations.
+          </p>
+
+          <!-- CTAs -->
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-10">
+            <a href="#planner" class="w-full sm:w-auto px-7 py-3.5 rounded-xl font-heading font-bold text-white gradient-royal-crimson hover:opacity-95 shadow-xl shadow-royal-600/25 hover:shadow-crimson-600/30 transition-all duration-300 flex items-center justify-center gap-2 group">
+              <span>Quick Fare Inquiry</span>
+              <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+              </svg>
+            </a>
+
+            <a href="https://wa.me/966545352165" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-7 py-3.5 rounded-xl font-heading font-semibold text-slate-200 hover:text-white glass-dark hover:border-crimson-500/50 transition-all duration-300 flex items-center justify-center gap-2 border border-slate-700/80">
+              <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+              <span>Direct WhatsApp: +966 545 352 165</span>
+            </a>
+          </div>
+
+          <!-- Highlight Metrics / Stats -->
+          <div class="grid grid-cols-3 gap-4 pt-6 border-t border-slate-800/80 text-center lg:text-left">
+            <div>
+              <div class="text-2xl sm:text-3xl font-heading font-extrabold text-royal-400">5,000+</div>
+              <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mt-0.5">Tickets Issued</div>
+            </div>
+            <div>
+              <div class="text-2xl sm:text-3xl font-heading font-extrabold text-crimson-400">10+ Yrs</div>
+              <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mt-0.5">Industry Trust</div>
+            </div>
+            <div>
+              <div class="text-2xl sm:text-3xl font-heading font-extrabold text-emerald-400">24 / 7</div>
+              <div class="text-xs text-slate-400 font-medium uppercase tracking-wider mt-0.5">Emergency Help</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Interactive Digital Boarding Pass & Floating Travel Icons -->
+        <div class="lg:col-span-5 relative flex justify-center">
+          
+          <!-- Floating Ambient Icons -->
+          <div class="absolute -top-6 -left-6 p-3 rounded-2xl bg-royal-600/20 border border-royal-500/30 backdrop-blur-md shadow-lg animate-float-slow z-20 hidden sm:block">
+            <svg class="w-7 h-7 text-royal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+
+          <div class="absolute -bottom-6 -right-4 p-3 rounded-2xl bg-crimson-600/20 border border-crimson-500/30 backdrop-blur-md shadow-lg animate-float-reverse z-20 hidden sm:block">
+            <svg class="w-7 h-7 text-crimson-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0 3.517-1.009 6.799-2.753 9.571m-3.44-2.04l.054-.09A13.916 13.916 0 008 11a4 4 0 118 0c0 1.017-.07 2.019-.203 3m-2.118 6.844A21.88 21.88 0 0015.171 17m3.839 1.132c.645-2.266.99-4.659.99-7.132A8 8 0 004.07 9.006" />
+            </svg>
+          </div>
+
+          <!-- Boarding Pass Modern Card -->
+          <div class="w-full max-w-md rounded-3xl p-6 glass-dark border border-white/10 shadow-2xl relative overflow-hidden transition-all duration-300 hover:border-royal-500/40 group">
+            
+            <!-- Top Header of the Boarding Pass -->
+            <div class="flex items-center justify-between pb-4 border-b border-slate-700/60">
+              <div class="flex items-center gap-2">
+                <div class="w-8 h-8 rounded-lg gradient-royal-crimson flex items-center justify-center font-bold text-xs text-white">
+                  ✈
+                </div>
+                <div>
+                  <div class="font-heading font-bold text-sm tracking-wide text-white">VIP TRAVEL PASS</div>
+                  <div class="text-[10px] text-slate-400 uppercase">Consultant Verified</div>
+                </div>
+              </div>
+              <span class="px-2.5 py-1 rounded-md text-[11px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+                ACTIVE
+              </span>
+            </div>
+
+            <!-- Route Display -->
+            <div class="py-6 flex items-center justify-between">
+              <div>
+                <div class="text-3xl font-heading font-black text-royal-400">RUH</div>
+                <div class="text-xs text-slate-300 font-medium">Riyadh, KSA</div>
+                <div class="text-[11px] text-slate-500 mt-1">Terminal 2 / 3</div>
+              </div>
+
+              <!-- Animated Flight Arc -->
+              <div class="flex-1 px-4 flex flex-col items-center">
+                <div class="text-xs font-semibold text-crimson-400 mb-1 flex items-center gap-1">
+                  <span>Non-Stop / Best Fare</span>
+                </div>
+                <div class="w-full flex items-center relative">
+                  <div class="w-2 h-2 rounded-full bg-royal-400"></div>
+                  <div class="flex-1 border-t-2 border-dashed border-slate-600 relative mx-1">
+                    <span class="absolute left-1/2 -top-3 -translate-x-1/2 text-white text-base">✈</span>
+                  </div>
+                  <div class="w-2 h-2 rounded-full bg-crimson-500"></div>
+                </div>
+                <div class="text-[10px] text-slate-400 mt-1.5">Direct Routing</div>
+              </div>
+
+              <div class="text-right">
+                <div class="text-3xl font-heading font-black text-crimson-400">DAC</div>
+                <div class="text-xs text-slate-300 font-medium">Dhaka, BGD</div>
+                <div class="text-[11px] text-slate-500 mt-1">Shahjalal Int'l</div>
+              </div>
+            </div>
+
+            <!-- Detailed Grid -->
+            <div class="grid grid-cols-2 gap-3 py-3 px-4 rounded-2xl bg-slate-900/60 border border-slate-800 text-xs mb-5">
+              <div>
+                <span class="text-slate-400 block text-[10px] uppercase font-semibold">Senior Consultant</span>
+                <span class="font-bold text-slate-200">M. R. K. Bappi</span>
+              </div>
+              <div>
+                <span class="text-slate-400 block text-[10px] uppercase font-semibold">Local Hub</span>
+                <span class="font-bold text-slate-200">Manfuhah, Riyadh</span>
+              </div>
+              <div>
+                <span class="text-slate-400 block text-[10px] uppercase font-semibold">Specialty</span>
+                <span class="font-bold text-royal-400">Umrah & Worldwide</span>
+              </div>
+              <div>
+                <span class="text-slate-400 block text-[10px] uppercase font-semibold">Direct Mobile</span>
+                <span class="font-bold text-emerald-400">+966 545 352 165</span>
+              </div>
+            </div>
+
+            <!-- Mock Barcode / Action Footer -->
+            <div class="pt-4 border-t border-dashed border-slate-700/80 flex items-center justify-between">
+              <div class="space-y-1">
+                <div class="flex gap-1 h-7 items-center opacity-80">
+                  <!-- Barcode Visual Bars -->
+                  <div class="w-1 h-full bg-slate-400"></div>
+                  <div class="w-0.5 h-full bg-slate-400"></div>
+                  <div class="w-1.5 h-full bg-slate-400"></div>
+                  <div class="w-0.5 h-full bg-slate-400"></div>
+                  <div class="w-2 h-full bg-slate-400"></div>
+                  <div class="w-1 h-full bg-slate-400"></div>
+                  <div class="w-0.5 h-full bg-slate-400"></div>
+                  <div class="w-2 h-full bg-slate-400"></div>
+                  <div class="w-1 h-full bg-slate-400"></div>
+                  <div class="w-0.5 h-full bg-slate-400"></div>
+                  <div class="w-1.5 h-full bg-slate-400"></div>
+                  <div class="w-1 h-full bg-slate-400"></div>
+                  <div class="w-2 h-full bg-slate-400"></div>
+                </div>
+                <div class="text-[9px] font-mono text-slate-400 tracking-wider">TKT-BAPPI-966545352165</div>
+              </div>
+
+              <a href="#planner" class="px-3.5 py-2 rounded-xl text-xs font-heading font-bold text-white bg-royal-600 hover:bg-royal-500 transition-colors flex items-center gap-1.5 shadow-md">
+                <span>Book Now</span>
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT CONSULTANT SECTION ==================== -->
+  <section id="about" class="py-16 md:py-24 relative z-10 border-t border-slate-800/60">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <!-- Left: Profile Bio & Philosophy -->
+        <div class="lg:col-span-6 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-crimson-600/10 border border-crimson-500/20 text-crimson-400 text-xs font-bold uppercase tracking-wider">
+            <span>Trusted Experience</span>
+          </div>
+
+          <h2 class="text-3xl sm:text-4xl font-heading font-extrabold tracking-tight">
+            Meet Your Personal <br/>
+            <span class="text-gradient-royal-red">Travel Strategist</span>
+          </h2>
+
+          <p class="text-slate-300 text-base leading-relaxed">
+            I am <strong class="text-white font-semibold">Mohammed Rezaul Karim Bappi</strong>, an established travel consultant based in <span class="text-royal-400 font-semibold">Haras Bin Qasim, Manfuhah, Riyadh</span>. For more than a decade, I have been helping residents, expatriates, and international travelers secure guaranteed best-rate flight tickets, hassle-free visas, and smooth travel arrangements.
+          </p>
+
+          <p class="text-slate-300 text-base leading-relaxed">
+            Whether you require an immediate same-day ticket back home to Bangladesh or India, an executive business flight to Dubai, or a spiritual Umrah journey with your family, you receive personal human attention and round-the-clock crisis support that automated travel apps simply cannot offer.
+          </p>
+
+          <!-- Key Guarantees -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-3">
+            <div class="flex items-start gap-3 p-3.5 rounded-xl bg-slate-900/50 border border-slate-800">
+              <div class="p-2 rounded-lg bg-royal-600/20 text-royal-400">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-bold text-sm text-white">Guaranteed Best Rates</h4>
+                <p class="text-xs text-slate-400">Access to official GDS systems with no hidden booking surcharges.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-3 p-3.5 rounded-xl bg-slate-900/50 border border-slate-800">
+              <div class="p-2 rounded-lg bg-crimson-600/20 text-crimson-400">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-bold text-sm text-white">Rapid Reissue Support</h4>
+                <p class="text-xs text-slate-400">Emergency ticket rescheduling and cancellations anytime.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Quick Callout -->
+          <div class="p-4 rounded-2xl bg-gradient-to-r from-royal-950/60 to-crimson-950/60 border border-royal-700/30 flex items-center justify-between flex-wrap gap-4">
+            <div>
+              <div class="text-xs text-slate-400 font-medium">Need immediate advice in Riyadh?</div>
+              <div class="text-base font-bold text-white font-heading">+966 545 352 165</div>
+            </div>
+            <button onclick="copyToClipboard('+966545352165', 'Phone number copied!')" class="px-3.5 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-xs font-semibold text-white border border-white/20 transition-all flex items-center gap-1">
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+              </svg>
+              <span>Copy Number</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right: Why Choose Bappi Interactive Cards -->
+        <div class="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          
+          <div class="p-6 rounded-2xl glass-dark border border-white/5 hover:border-royal-500/40 transition-all duration-300">
+            <div class="w-12 h-12 rounded-xl bg-royal-600/20 text-royal-400 flex items-center justify-center mb-4 text-xl">
+              🕋
+            </div>
+            <h3 class="text-lg font-heading font-bold text-white mb-2">Umrah & Ziyarah</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Complete Umrah arrangements from Riyadh including Makkah/Madinah 4-5 star hotels and premium transport bookings.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-2xl glass-dark border border-white/5 hover:border-crimson-500/40 transition-all duration-300">
+            <div class="w-12 h-12 rounded-xl bg-crimson-600/20 text-crimson-400 flex items-center justify-center mb-4 text-xl">
+              🛂
+            </div>
+            <h3 class="text-lg font-heading font-bold text-white mb-2">Visa Consultation</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Tourist, family visit, work re-entry checking, and transit visas handled with precision and verified documentation.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-2xl glass-dark border border-white/5 hover:border-royal-500/40 transition-all duration-300">
+            <div class="w-12 h-12 rounded-xl bg-royal-600/20 text-royal-400 flex items-center justify-center mb-4 text-xl">
+              🧳
+            </div>
+            <h3 class="text-lg font-heading font-bold text-white mb-2">Extra Luggage Deals</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Pre-booked additional baggage allowances at significant discounts compared to expensive airport counter fees.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-2xl glass-dark border border-white/5 hover:border-crimson-500/40 transition-all duration-300">
+            <div class="w-12 h-12 rounded-xl bg-crimson-600/20 text-crimson-400 flex items-center justify-center mb-4 text-xl">
+              📍
+            </div>
+            <h3 class="text-lg font-heading font-bold text-white mb-2">Local Riyadh Office</h3>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Meet face-to-face in Haras Bin Qasim, Manfuhah for instant paper ticketing, cash payments, or personalized guidance.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== CORE SERVICES SECTION ==================== -->
+  <section id="services" class="py-16 md:py-24 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-royal-600/10 border border-royal-500/20 text-royal-400 text-xs font-bold uppercase tracking-wider mb-3">
+          <span>Tailored Travel Solutions</span>
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-heading font-extrabold tracking-tight mb-4">
+          Professional Travel & <span class="text-gradient-royal-red">Ticketing Services</span>
+        </h2>
+        <p class="text-slate-400 text-sm sm:text-base">
+          From individual budget flights to comprehensive corporate itineraries, enjoy complete peace of mind at every stage of your voyage.
+        </p>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Service 1: Flight Reservations -->
+        <div class="p-8 rounded-3xl glass-dark border border-white/5 hover:border-royal-500/50 hover:shadow-2xl hover:shadow-royal-600/10 transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-royal-600 to-royal-400 text-white flex items-center justify-center text-2xl shadow-lg mb-6 group-hover:scale-110 transition-transform">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-heading font-bold text-white mb-3">Air Ticketing & Best Fares</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+              Domestic and international airline tickets on all major carriers (Saudia, Biman, Emirates, Qatar Airways, Flynas) with flexible dates and special expat rates.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-800 flex items-center justify-between text-xs">
+            <span class="text-royal-400 font-semibold">GDS Guaranteed Fares</span>
+            <a href="#planner" class="text-slate-300 hover:text-white font-medium flex items-center gap-1">Inquire <span>→</span></a>
+          </div>
+        </div>
+
+        <!-- Service 2: Visa Services -->
+        <div class="p-8 rounded-3xl glass-dark border border-white/5 hover:border-crimson-500/50 hover:shadow-2xl hover:shadow-crimson-600/10 transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-crimson-600 to-crimson-400 text-white flex items-center justify-center text-2xl shadow-lg mb-6 group-hover:scale-110 transition-transform">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-heading font-bold text-white mb-3">Visa Consulting & Processing</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+              Expert guidance for tourist visas, Saudi visit visas, transit visas, electronic travel authorizations (e-Visas), and document verifications.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-800 flex items-center justify-between text-xs">
+            <span class="text-crimson-400 font-semibold">Verified Documentation</span>
+            <a href="#planner" class="text-slate-300 hover:text-white font-medium flex items-center gap-1">Inquire <span>→</span></a>
+          </div>
+        </div>
+
+        <!-- Service 3: Holiday & Tour Packages -->
+        <div class="p-8 rounded-3xl glass-dark border border-white/5 hover:border-royal-500/50 hover:shadow-2xl hover:shadow-royal-600/10 transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-royal-700 to-indigo-500 text-white flex items-center justify-center text-2xl shadow-lg mb-6 group-hover:scale-110 transition-transform">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-heading font-bold text-white mb-3">Custom Holiday Packages</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+              Tailor-made vacation getaways across Thailand, Malaysia, UAE, Turkey, Egypt, and Europe with hotel bookings, guided city tours, and private transfers.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-800 flex items-center justify-between text-xs">
+            <span class="text-royal-400 font-semibold">All-Inclusive Itineraries</span>
+            <a href="#planner" class="text-slate-300 hover:text-white font-medium flex items-center gap-1">Inquire <span>→</span></a>
+          </div>
+        </div>
+
+        <!-- Service 4: Umrah & Spiritual Journeys -->
+        <div class="p-8 rounded-3xl glass-dark border border-white/5 hover:border-crimson-500/50 hover:shadow-2xl hover:shadow-crimson-600/10 transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-crimson-700 to-amber-600 text-white flex items-center justify-center text-2xl shadow-lg mb-6 group-hover:scale-110 transition-transform">
+              <span class="text-2xl">🕋</span>
+            </div>
+            <h3 class="text-xl font-heading font-bold text-white mb-3">Umrah & Ziyarah Arrangements</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+              Dedicated Umrah planning from Riyadh: high-speed Haramain train ticketing, VIP GMC family transport, and direct hotel bookings near the Haram in Makkah & Madinah.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-800 flex items-center justify-between text-xs">
+            <span class="text-crimson-400 font-semibold">Family & Group Friendly</span>
+            <a href="#planner" class="text-slate-300 hover:text-white font-medium flex items-center gap-1">Inquire <span>→</span></a>
+          </div>
+        </div>
+
+        <!-- Service 5: 24/7 Emergency Ticket Rescue -->
+        <div class="p-8 rounded-3xl glass-dark border border-white/5 hover:border-royal-500/50 hover:shadow-2xl hover:shadow-royal-600/10 transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-blue-700 to-cyan-500 text-white flex items-center justify-center text-2xl shadow-lg mb-6 group-hover:scale-110 transition-transform">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-heading font-bold text-white mb-3">Emergency Reissue & Refunds</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+              Missed a flight? Need immediate date changes or emergency cancellations? I handle instant airline revalidations and refund processing anytime.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-800 flex items-center justify-between text-xs">
+            <span class="text-emerald-400 font-semibold">Immediate Assistance</span>
+            <a href="https://wa.me/966545352165" class="text-slate-300 hover:text-white font-medium flex items-center gap-1">Call Now <span>→</span></a>
+          </div>
+        </div>
+
+        <!-- Service 6: Hotel & Ground Transport -->
+        <div class="p-8 rounded-3xl glass-dark border border-white/5 hover:border-crimson-500/50 hover:shadow-2xl hover:shadow-crimson-600/10 transition-all duration-300 flex flex-col justify-between group">
+          <div>
+            <div class="w-14 h-14 rounded-2xl bg-gradient-to-tr from-rose-600 to-crimson-600 text-white flex items-center justify-center text-2xl shadow-lg mb-6 group-hover:scale-110 transition-transform">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+              </svg>
+            </div>
+            <h3 class="text-xl font-heading font-bold text-white mb-3">Hotel Bookings & Transfers</h3>
+            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+              Discounted hotel room rates worldwide, airport pickup/drop services, and pre-arranged chauffeured cars so you arrive relaxed and on schedule.
+            </p>
+          </div>
+          <div class="pt-4 border-t border-slate-800 flex items-center justify-between text-xs">
+            <span class="text-crimson-400 font-semibold">Worldwide Network</span>
+            <a href="#planner" class="text-slate-300 hover:text-white font-medium flex items-center gap-1">Inquire <span>→</span></a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== POPULAR SECTORS & AIRLINES ==================== -->
+  <section id="routes" class="py-16 md:py-20 relative z-10 bg-slate-950/60 border-y border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+        <div>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-royal-600/10 border border-royal-500/20 text-royal-400 text-xs font-bold uppercase tracking-wider mb-2">
+            <span>Specialized Routes</span>
+          </div>
+          <h2 class="text-3xl font-heading font-extrabold text-white">Popular Flight Sectors</h2>
+          <p class="text-slate-400 text-sm mt-1">Direct & transit flights regularly booked with exclusive seat allocations</p>
+        </div>
+        <div class="mt-4 md:mt-0 text-xs text-slate-400">
+          Showing key sectors from <span class="text-royal-400 font-bold">Riyadh (RUH)</span>
+        </div>
+      </div>
+
+      <!-- Route Cards -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-14">
+        
+        <!-- Route 1 -->
+        <div class="p-4 rounded-2xl glass-dark border border-white/5 hover:border-royal-500/50 transition-all cursor-pointer group" onclick="prefillPlanner('Riyadh (RUH)', 'Dhaka (DAC)')">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-bold text-royal-400">Bangladesh Route</span>
+            <span class="text-[10px] px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-bold">Daily Flights</span>
+          </div>
+          <div class="text-lg font-heading font-extrabold text-white group-hover:text-royal-300 transition-colors">
+            RUH ➔ DAC
+          </div>
+          <div class="text-xs text-slate-400">Riyadh to Dhaka</div>
+          <div class="mt-3 pt-3 border-t border-slate-800 text-[11px] text-slate-300 flex justify-between">
+            <span>Saudia / Biman / US-Bangla</span>
+            <span class="text-crimson-400 font-semibold group-hover:underline">Quick Book</span>
+          </div>
+        </div>
+
+        <!-- Route 2 -->
+        <div class="p-4 rounded-2xl glass-dark border border-white/5 hover:border-royal-500/50 transition-all cursor-pointer group" onclick="prefillPlanner('Riyadh (RUH)', 'Chittagong (CGP)')">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-bold text-royal-400">Bangladesh Route</span>
+            <span class="text-[10px] px-2 py-0.5 rounded bg-royal-500/20 text-royal-300 font-bold">Direct Options</span>
+          </div>
+          <div class="text-lg font-heading font-extrabold text-white group-hover:text-royal-300 transition-colors">
+            RUH ➔ CGP
+          </div>
+          <div class="text-xs text-slate-400">Riyadh to Chittagong</div>
+          <div class="mt-3 pt-3 border-t border-slate-800 text-[11px] text-slate-300 flex justify-between">
+            <span>Biman / Saudia / Flydubai</span>
+            <span class="text-crimson-400 font-semibold group-hover:underline">Quick Book</span>
+          </div>
+        </div>
+
+        <!-- Route 3 -->
+        <div class="p-4 rounded-2xl glass-dark border border-white/5 hover:border-royal-500/50 transition-all cursor-pointer group" onclick="prefillPlanner('Riyadh (RUH)', 'Sylhet (ZYL)')">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-bold text-royal-400">Bangladesh Route</span>
+            <span class="text-[10px] px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 font-bold">High Demand</span>
+          </div>
+          <div class="text-lg font-heading font-extrabold text-white group-hover:text-royal-300 transition-colors">
+            RUH ➔ ZYL
+          </div>
+          <div class="text-xs text-slate-400">Riyadh to Sylhet</div>
+          <div class="mt-3 pt-3 border-t border-slate-800 text-[11px] text-slate-300 flex justify-between">
+            <span>Biman / Transit Connections</span>
+            <span class="text-crimson-400 font-semibold group-hover:underline">Quick Book</span>
+          </div>
+        </div>
+
+        <!-- Route 4 -->
+        <div class="p-4 rounded-2xl glass-dark border border-white/5 hover:border-crimson-500/50 transition-all cursor-pointer group" onclick="prefillPlanner('Riyadh (RUH)', 'Cairo (CAI)')">
+          <div class="flex items-center justify-between mb-3">
+            <span class="text-xs font-bold text-crimson-400">Middle East Route</span>
+            <span class="text-[10px] px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-bold">Multiple Daily</span>
+          </div>
+          <div class="text-lg font-heading font-extrabold text-white group-hover:text-crimson-300 transition-colors">
+            RUH ➔ CAI
+          </div>
+          <div class="text-xs text-slate-400">Riyadh to Cairo</div>
+          <div class="mt-3 pt-3 border-t border-slate-800 text-[11px] text-slate-300 flex justify-between">
+            <span>EgyptAir / Flynas / Saudia</span>
+            <span class="text-crimson-400 font-semibold group-hover:underline">Quick Book</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Partner Airlines Bar -->
+      <div class="pt-8 border-t border-slate-800">
+        <p class="text-center text-xs uppercase tracking-widest text-slate-400 font-semibold mb-6">
+          Official Partner & Ticketing Alliances
+        </p>
+        <div class="flex flex-wrap items-center justify-center gap-6 sm:gap-10 text-slate-400 font-heading font-bold text-sm sm:text-base">
+          <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:text-white transition-colors">SAUDIA</span>
+          <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:text-white transition-colors">BIMAN BANGLADESH</span>
+          <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:text-white transition-colors">US-BANGLA</span>
+          <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:text-white transition-colors">EMIRATES</span>
+          <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:text-white transition-colors">QATAR AIRWAYS</span>
+          <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:text-white transition-colors">FLYNAS</span>
+          <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:text-white transition-colors">FLYDUBAI</span>
+          <span class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:text-white transition-colors">AIR ARABIA</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== INTERACTIVE WHATSAPP TRIP PLANNER ==================== -->
+  <section id="planner" class="py-16 md:py-24 relative z-10">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Box Container with Royal Blue to Crimson Accent Border -->
+      <div class="p-1 rounded-3xl bg-gradient-to-r from-royal-600 via-indigo-600 to-crimson-600 shadow-2xl">
+        <div class="p-6 sm:p-10 rounded-[23px] bg-slate-950 dark:bg-slate-950">
+          
+          <div class="text-center max-w-xl mx-auto mb-8">
+            <span class="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-crimson-600/20 text-crimson-400 border border-crimson-500/30 mb-2">
+              Instant Quote Engine
+            </span>
+            <h2 class="text-2xl sm:text-4xl font-heading font-black text-white">
+              WhatsApp Trip Planner
+            </h2>
+            <p class="text-xs sm:text-sm text-slate-400 mt-2">
+              Fill in your details below. This generates an instant pre-formatted inquiry directly to <strong class="text-white">+966 545 352 165</strong> for rapid fare quoting.
+            </p>
+          </div>
+
+          <form id="travelInquiryForm" class="space-y-5" onsubmit="handleFormSubmit(event)">
+            
+            <!-- Trip Type Radio Tabs -->
+            <div class="flex items-center justify-center gap-2 p-1.5 rounded-xl bg-slate-900 border border-slate-800 max-w-md mx-auto text-xs font-medium">
+              <label class="flex-1 text-center py-2 rounded-lg cursor-pointer transition-all duration-200 trip-type-label bg-royal-600 text-white font-bold" id="label-oneway">
+                <input type="radio" name="tripType" value="One-Way" class="sr-only" checked onchange="updateTripType('One-Way')" />
+                One-Way
+              </label>
+              <label class="flex-1 text-center py-2 rounded-lg cursor-pointer transition-all duration-200 trip-type-label text-slate-400 hover:text-white" id="label-roundtrip">
+                <input type="radio" name="tripType" value="Round-Trip" class="sr-only" onchange="updateTripType('Round-Trip')" />
+                Round-Trip
+              </label>
+              <label class="flex-1 text-center py-2 rounded-lg cursor-pointer transition-all duration-200 trip-type-label text-slate-400 hover:text-white" id="label-umrah">
+                <input type="radio" name="tripType" value="Umrah / Tour Package" class="sr-only" onchange="updateTripType('Umrah / Tour Package')" />
+                Umrah / Tour
+              </label>
+            </div>
+
+            <!-- Origin & Destination -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label for="originInput" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
+                  Flying From (Departure)
+                </label>
+                <div class="relative">
+                  <span class="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400">🛫</span>
+                  <input type="text" id="originInput" required value="Riyadh, Saudi Arabia (RUH)" class="w-full pl-10 pr-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-royal-500 focus:ring-1 focus:ring-royal-500 transition-all" placeholder="City or Airport Code" />
+                </div>
+              </div>
+
+              <div>
+                <label for="destInput" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
+                  Flying To (Destination)
+                </label>
+                <div class="relative">
+                  <span class="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400">🛬</span>
+                  <input type="text" id="destInput" required placeholder="e.g. Dhaka, Chittagong, Cairo, Dubai" class="w-full pl-10 pr-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-crimson-500 focus:ring-1 focus:ring-crimson-500 transition-all" />
+                </div>
+              </div>
+            </div>
+
+            <!-- Dates & Passengers -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div>
+                <label for="travelDateInput" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
+                  Departure Date
+                </label>
+                <input type="date" id="travelDateInput" required class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-royal-500" />
+              </div>
+
+              <div id="returnDateContainer" class="opacity-50 pointer-events-none">
+                <label for="returnDateInput" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
+                  Return Date <span class="text-[10px] text-slate-400 font-normal">(if round trip)</span>
+                </label>
+                <input type="date" id="returnDateInput" class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-royal-500" />
+              </div>
+
+              <div>
+                <label for="passengersInput" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
+                  Travelers / Class
+                </label>
+                <select id="passengersInput" class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-royal-500">
+                  <option value="1 Adult, Economy">1 Adult (Economy)</option>
+                  <option value="2 Adults, Economy">2 Adults (Economy)</option>
+                  <option value="Family (Adults + Kids), Economy">Family (With Children)</option>
+                  <option value="1 Adult, Business Class">1 Adult (Business Class)</option>
+                  <option value="Group Booking (4+ Pax)">Group Booking (4+ Pax)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Special Note or Extra Requirements -->
+            <div>
+              <label for="clientNotes" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">
+                Special Requests or Preferred Airline (Optional)
+              </label>
+              <textarea id="clientNotes" rows="2" placeholder="e.g. Need extra 10kg luggage, Saudia or Biman preferred, require visit visa guidance..." class="w-full px-4 py-2.5 rounded-xl bg-slate-900/90 border border-slate-700 text-white text-sm focus:outline-none focus:border-royal-500"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="w-full py-4 rounded-xl font-heading font-bold text-white text-base bg-gradient-to-r from-emerald-600 via-teal-600 to-royal-600 hover:from-emerald-500 hover:to-royal-500 shadow-xl shadow-emerald-600/20 transition-all duration-300 flex items-center justify-center gap-2 group">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+              <span>Submit & Open WhatsApp Inquiry</span>
+            </button>
+
+            <p class="text-center text-[11px] text-slate-400">
+              🔒 Direct personal chat with Mohammed Rezaul Karim Bappi. No spam, immediate human response.
+            </p>
+
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== LOCATION & CONTACT SECTION ==================== -->
+  <section id="contact" class="py-16 md:py-24 relative z-10 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+        
+        <!-- Contact Information Card -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-royal-600/10 border border-royal-500/20 text-royal-400 text-xs font-bold uppercase tracking-wider">
+            <span>Direct Access</span>
+          </div>
+
+          <h2 class="text-3xl sm:text-4xl font-heading font-extrabold text-white">
+            Get In Touch <br />
+            <span class="text-gradient-royal-red">In Riyadh & Beyond</span>
+          </h2>
+
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+            Drop by our local office or connect instantly through WhatsApp for flight bookings, re-issues, visa documents, or emergency assistance.
+          </p>
+
+          <div class="space-y-4 pt-2">
+            
+            <!-- Address Item -->
+            <div class="p-4 rounded-2xl glass-dark border border-white/5 flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-royal-600/20 text-royal-400 flex items-center justify-center shrink-0 text-lg">
+                📍
+              </div>
+              <div>
+                <h4 class="text-xs uppercase font-bold text-slate-400 tracking-wider">Office Location</h4>
+                <p class="text-sm font-semibold text-white mt-0.5">
+                  Haras Bin Qasim, Manfuhah
+                </p>
+                <p class="text-xs text-slate-400">Riyadh, Kingdom of Saudi Arabia</p>
+              </div>
+            </div>
+
+            <!-- WhatsApp Item -->
+            <div class="p-4 rounded-2xl glass-dark border border-white/5 flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-emerald-600/20 text-emerald-400 flex items-center justify-center shrink-0 text-lg">
+                💬
+              </div>
+              <div class="flex-1">
+                <h4 class="text-xs uppercase font-bold text-slate-400 tracking-wider">WhatsApp & Direct Call</h4>
+                <a href="https://wa.me/966545352165" class="text-sm font-bold text-emerald-400 hover:underline block mt-0.5">
+                  +966 545 352 165
+                </a>
+                <p class="text-[11px] text-slate-400">Available 24/7 for urgent ticketing</p>
+              </div>
+              <button onclick="copyToClipboard('+966545352165', 'Phone number copied to clipboard!')" class="text-xs text-slate-400 hover:text-white px-2.5 py-1 rounded-lg bg-slate-800">
+                Copy
+              </button>
+            </div>
+
+            <!-- Business Hours Item -->
+            <div class="p-4 rounded-2xl glass-dark border border-white/5 flex items-start gap-4">
+              <div class="w-10 h-10 rounded-xl bg-crimson-600/20 text-crimson-400 flex items-center justify-center shrink-0 text-lg">
+                ⏱
+              </div>
+              <div>
+                <h4 class="text-xs uppercase font-bold text-slate-400 tracking-wider">Consultation Hours</h4>
+                <p class="text-sm font-semibold text-white mt-0.5">Saturday – Thursday: 9:00 AM – 11:00 PM</p>
+                <p class="text-xs text-slate-400">Friday: 2:00 PM – 11:00 PM (Emergency WhatsApp 24/7)</p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Save Contact Button (vCard) -->
+          <button onclick="downloadVCard()" class="w-full py-3.5 rounded-xl font-heading font-bold text-sm text-slate-200 hover:text-white glass-dark border border-royal-500/30 hover:border-royal-400 flex items-center justify-center gap-2 transition-all shadow-md">
+            <svg class="w-4 h-4 text-royal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+            </svg>
+            <span>Save Contact to Phone (vCard)</span>
+          </button>
+
+        </div>
+
+        <!-- Right: Interactive Map Simulation & Quick Direction Guide -->
+        <div class="lg:col-span-7 flex flex-col justify-between">
+          
+          <div class="rounded-3xl overflow-hidden glass-dark border border-white/10 p-6 flex flex-col justify-between h-full">
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center gap-2">
+                  <div class="w-3 h-3 rounded-full bg-crimson-500 animate-pulse"></div>
+                  <span class="text-xs font-bold uppercase tracking-wider text-slate-300">Riyadh Hub Pin</span>
+                </div>
+                <span class="text-xs text-slate-400">Manfuhah District</span>
+              </div>
+              
+              <!-- Styled Map Graphic Visualizer -->
+              <div class="w-full h-64 sm:h-72 rounded-2xl bg-slate-900 relative overflow-hidden flex items-center justify-center border border-slate-800">
+                <!-- Grid Map pattern -->
+                <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#3b82f6_1px,transparent_1px)] [background-size:16px_16px]"></div>
+                
+                <!-- Radar animation circle -->
+                <div class="w-40 h-40 rounded-full border border-royal-500/30 absolute animate-ping opacity-30"></div>
+                <div class="w-24 h-24 rounded-full border border-crimson-500/40 absolute"></div>
+
+                <!-- Center Location Pin Marker -->
+                <div class="relative z-10 flex flex-col items-center">
+                  <div class="w-12 h-12 rounded-full gradient-royal-crimson flex items-center justify-center text-white shadow-xl shadow-crimson-600/40 animate-bounce">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                    </svg>
+                  </div>
+                  <div class="mt-2 px-3 py-1 rounded-md bg-darkBg/95 border border-white/20 text-xs font-bold text-white shadow-lg text-center">
+                    Mohammed Rezaul Karim Bappi
+                    <span class="block text-[10px] text-royal-400 font-normal">Haras Bin Qasim, Manfuhah</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Direction Action -->
+            <div class="pt-6 mt-6 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div class="text-xs text-slate-400 text-center sm:text-left">
+                Need landmarks or directions? Text me on WhatsApp for immediate live location pin.
+              </div>
+              <a href="https://wa.me/966545352165?text=Hello%20Bappi,%20please%20send%20me%20your%20office%20location%20pin%20in%20Manfuhah." target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-xl font-heading font-semibold text-xs text-white gradient-royal-crimson hover:opacity-90 transition-opacity shrink-0">
+                Request Google Map Pin
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="py-12 border-t border-slate-800/80 bg-slate-950 text-slate-400 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        
+        <div class="flex items-center gap-3">
+          <div class="w-8 h-8 rounded-lg gradient-royal-crimson flex items-center justify-center font-bold text-white text-xs">
+            BK
+          </div>
+          <div>
+            <div class="font-heading font-bold text-white text-sm">Mohammed Rezaul Karim Bappi</div>
+            <div class="text-[11px] text-slate-500">Senior Travel Consultant — Riyadh, Saudi Arabia</div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap justify-center gap-6 text-slate-400 font-medium">
+          <a href="#about" class="hover:text-royal-400 transition-colors">About</a>
+          <a href="#services" class="hover:text-royal-400 transition-colors">Services</a>
+          <a href="#planner" class="hover:text-crimson-400 transition-colors">Trip Planner</a>
+          <a href="#contact" class="hover:text-royal-400 transition-colors">Contact</a>
+        </div>
+
+        <div class="text-center md:text-right text-[11px] text-slate-500">
+          <p>© <span id="currentYear"></span> Mohammed Rezaul Karim Bappi.</p>
+          <p class="mt-0.5">Haras Bin Qasim, Manfuhah, Riyadh • WhatsApp: +966 545 352 165</p>
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==================== FLOATING WHATSAPP BUTTON ==================== -->
+  <div class="fixed bottom-6 right-6 z-50 group">
+    <a href="https://wa.me/966545352165?text=Hello%20Mohammed%20Rezaul%20Karim%20Bappi,%20I%20am%20in%20need%20of%20flight%20and%20travel%20assistance."
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Direct WhatsApp Contact"
+       class="relative flex items-center justify-center w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white shadow-2xl shadow-emerald-500/50 hover:scale-110 active:scale-95 transition-all duration-300">
+      
+      <!-- Ripple effect -->
+      <span class="absolute w-full h-full rounded-full bg-emerald-400 opacity-60 animate-ping pointer-events-none"></span>
+
+      <!-- WhatsApp SVG Icon -->
+      <svg class="w-7 h-7 fill-current relative z-10" viewBox="0 0 24 24">
+        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- ==================== CUSTOM TOAST NOTIFICATION CONTAINER ==================== -->
+  <div id="toastNotification" class="fixed bottom-24 left-1/2 -translate-x-1/2 z-50 pointer-events-none transition-all duration-300 opacity-0 transform translate-y-4">
+    <div class="px-5 py-3 rounded-2xl bg-slate-900/95 border border-royal-500/40 text-white text-xs font-semibold shadow-2xl flex items-center gap-2 backdrop-blur-md">
+      <span class="text-emerald-400">✓</span>
+      <span id="toastMessage">Success</span>
+    </div>
+  </div>
+
+  <!-- ==================== JAVASCRIPT LOGIC ==================== -->
+  <script>
+    // 1. Current Year
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+    // 2. Default travel date to tomorrow
+    const tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    const dateInput = document.getElementById('travelDateInput');
+    if (dateInput) {
+      dateInput.value = tomorrow.toISOString().split('T')[0];
+    }
+
+    // 3. Dark / Light Mode Logic with Persistent Storage
+    const themeToggleBtn = document.getElementById('themeToggleBtn');
+    const sunIcon = document.getElementById('sunIcon');
+    const moonIcon = document.getElementById('moonIcon');
+    const pageBody = document.getElementById('pageBody');
+    const navbarContainer = document.getElementById('navbarContainer');
+
+    function applyTheme(isDark) {
+      if (isDark) {
+        document.documentElement.classList.add('dark');
+        document.documentElement.classList.remove('light');
+        pageBody.classList.remove('bg-slate-50', 'text-slate-900');
+        pageBody.classList.add('bg-darkBg', 'text-slate-100');
+        sunIcon.classList.remove('hidden');
+        moonIcon.classList.add('hidden');
+        navbarContainer.classList.remove('glass-light');
+        navbarContainer.classList.add('glass-dark');
+        localStorage.setItem('bappi_portfolio_theme', 'dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+        document.documentElement.classList.add('light');
+        pageBody.classList.remove('bg-darkBg', 'text-slate-100');
+        pageBody.classList.add('bg-slate-50', 'text-slate-900');
+        sunIcon.classList.add('hidden');
+        moonIcon.classList.remove('hidden');
+        navbarContainer.classList.remove('glass-dark');
+        navbarContainer.classList.add('glass-light');
+        localStorage.setItem('bappi_portfolio_theme', 'light');
+      }
+    }
+
+    // Initialize Theme: default to Dark Mode for the rich Royal Blue & Crimson visual experience
+    const savedTheme = localStorage.getItem('bappi_portfolio_theme');
+    if (savedTheme === 'light') {
+      applyTheme(false);
+    } else {
+      applyTheme(true);
+    }
+
+    themeToggleBtn.addEventListener('click', () => {
+      const isCurrentlyDark = document.documentElement.classList.contains('dark');
+      applyTheme(!isCurrentlyDark);
+    });
+
+    // 4. Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+
+    // 5. Trip Planner State & Form Logic
+    let currentTripType = 'One-Way';
+    function updateTripType(type) {
+      currentTripType = type;
+      const onewayLabel = document.getElementById('label-oneway');
+      const roundtripLabel = document.getElementById('label-roundtrip');
+      const umrahLabel = document.getElementById('label-umrah');
+      const returnContainer = document.getElementById('returnDateContainer');
+
+      [onewayLabel, roundtripLabel, umrahLabel].forEach(lbl => {
+        lbl.classList.remove('bg-royal-600', 'text-white', 'font-bold');
+        lbl.classList.add('text-slate-400');
+      });
+
+      if (type === 'One-Way') {
+        onewayLabel.classList.add('bg-royal-600', 'text-white', 'font-bold');
+        onewayLabel.classList.remove('text-slate-400');
+        returnContainer.classList.add('opacity-50', 'pointer-events-none');
+      } else if (type === 'Round-Trip') {
+        roundtripLabel.classList.add('bg-royal-600', 'text-white', 'font-bold');
+        roundtripLabel.classList.remove('text-slate-400');
+        returnContainer.classList.remove('opacity-50', 'pointer-events-none');
+      } else {
+        umrahLabel.classList.add('bg-royal-600', 'text-white', 'font-bold');
+        umrahLabel.classList.remove('text-slate-400');
+        returnContainer.classList.remove('opacity-50', 'pointer-events-none');
+      }
+    }
+
+    function prefillPlanner(from, to) {
+      document.getElementById('originInput').value = from;
+      document.getElementById('destInput').value = to;
+      document.getElementById('planner').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function handleFormSubmit(event) {
+      event.preventDefault();
+      const origin = document.getElementById('originInput').value.trim();
+      const destination = document.getElementById('destInput').value.trim();
+      const travelDate = document.getElementById('travelDateInput').value;
+      const returnDate = document.getElementById('returnDateInput').value;
+      const passengers = document.getElementById('passengersInput').value;
+      const notes = document.getElementById('clientNotes').value.trim();
+
+      let message = `Hello Mohammed Rezaul Karim Bappi, I would like to inquire about booking a flight:\n\n`;
+      message += `• Type: ${currentTripType}\n`;
+      message += `• Origin: ${origin}\n`;
+      message += `• Destination: ${destination}\n`;
+      message += `• Travel Date: ${travelDate}\n`;
+      if (currentTripType !== 'One-Way' && returnDate) {
+        message += `• Return Date: ${returnDate}\n`;
+      }
+      message += `• Travelers/Class: ${passengers}\n`;
+      if (notes) {
+        message += `• Special Notes: ${notes}\n`;
+      }
+      message += `\nPlease check the best available fares and flight schedule for me. Thank you!`;
+
+      const encodedMessage = encodeURIComponent(message);
+      const whatsappUrl = `https://wa.me/966545352165?text=${encodedMessage}`;
+      window.open(whatsappUrl, '_blank');
+    }
+
+    // 6. Toast Notification Helper
+    function showToast(msg) {
+      const toast = document.getElementById('toastNotification');
+      const text = document.getElementById('toastMessage');
+      text.textContent = msg;
+      toast.classList.remove('opacity-0', 'translate-y-4');
+      toast.classList.add('opacity-100', 'translate-y-0');
+
+      setTimeout(() => {
+        toast.classList.remove('opacity-100', 'translate-y-0');
+        toast.classList.add('opacity-0', 'translate-y-4');
+      }, 3000);
+    }
+
+    // 7. Clipboard Copy Helper (Cross-browser safe)
+    function copyToClipboard(text, successMsg) {
+      const tempInput = document.createElement('input');
+      tempInput.value = text;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      try {
+        document.execCommand('copy');
+        showToast(successMsg);
+      } catch (err) {
+        showToast('Number: ' + text);
+      }
+      document.body.removeChild(tempInput);
+    }
+
+    // 8. Download Contact as vCard (.vcf)
+    function downloadVCard() {
+      const vcardData = [
+        'BEGIN:VCARD',
+        'VERSION:3.0',
+        'FN:Mohammed Rezaul Karim Bappi',
+        'N:Bappi;Mohammed;Rezaul Karim;;',
+        'ORG:Travel & Tourism Consultancy',
+        'TITLE:Senior Travel Consultant',
+        'TEL;TYPE=CELL,VOICE,WHATSAPP:+966545352165',
+        'ADR;TYPE=WORK:;;Haras Bin Qasim\\, Manfuhah;Riyadh;;;Saudi Arabia',
+        'NOTE:Senior Travel Consultant & International Flight Specialist in Riyadh',
+        'END:VCARD'
+      ].join('\r\n');
+
+      const blob = new Blob([vcardData], { type: 'text/vcard;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', 'Mohammed_Rezaul_Karim_Bappi.vcf');
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+      showToast('Contact card (vCard) downloaded!');
+    }
+  </script>
+
+</body>
+</html>
