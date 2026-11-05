@@ -17,6 +17,8 @@
 
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
   <script>
     tailwind.config = {
       darkMode: 'class',
@@ -151,6 +153,166 @@
       background-color: #f8fafc;
     }
     .ticket-notch-top::before { left: 68%; transform: translateX(-50%); }
+
+    /* ==========================================================================
+       LIGHT THEME ULTRA-CRISP DESIGN SYSTEM
+       Guarantees 100% contrast, bold slate typography & luminous white cards
+       ========================================================================== */
+    html.light, 
+    html.light body {
+      background-color: #f8fafc !important;
+      color: #0f172a !important;
+    }
+
+    /* Primary Headings & Consultant Name Visibility */
+    html.light #heroNameText,
+    html.light #navBrandName,
+    html.light h1,
+    html.light h1 span:first-child,
+    html.light h2,
+    html.light h3,
+    html.light h4,
+    html.light .light-heading-dark {
+      color: #0f172a !important;
+      opacity: 1 !important;
+    }
+
+    /* Gradient in Light Theme */
+    html.light .text-gradient-royal-red {
+      background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 40%, #e11d48 100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
+    }
+
+    /* Body Text & Descriptive Labels */
+    html.light p,
+    html.light .text-slate-200,
+    html.light .text-slate-300 {
+      color: #334155 !important;
+    }
+    html.light .text-slate-400 {
+      color: #64748b !important;
+    }
+    html.light .text-slate-500 {
+      color: #94a3b8 !important;
+    }
+
+    /* Cards, Glass Containers & Surfaces */
+    html.light .glass-navy,
+    html.light .bg-navy-900,
+    html.light .bg-navy-850 {
+      background-color: #ffffff !important;
+      border-color: #e2e8f0 !important;
+      box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.05), 0 8px 10px -6px rgba(15, 23, 42, 0.03) !important;
+    }
+
+    /* Navbar in Light Theme */
+    html.light #navbarContainer {
+      background-color: rgba(255, 255, 255, 0.94) !important;
+      border-color: #e2e8f0 !important;
+      box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.07) !important;
+    }
+    html.light #desktopNavLinks a {
+      color: #334155 !important;
+    }
+    html.light #desktopNavLinks a:hover {
+      color: #1d4ed8 !important;
+    }
+
+    /* Hero Location Chip in Light Theme */
+    html.light #hero .rounded-full.bg-navy-900\/90 {
+      background-color: #eff6ff !important;
+      border-color: #bfdbfe !important;
+    }
+    html.light #hero .rounded-full.bg-navy-900\/90 span.text-white {
+      color: #1e3a8a !important;
+    }
+    html.light #hero .rounded-full.bg-navy-900\/90 span.text-slate-300 {
+      color: #2563eb !important;
+    }
+
+    /* Boarding Pass VIP Card in Light Mode */
+    html.light #ticket .bg-navy-900 {
+      background-color: #ffffff !important;
+      border-color: #e2e8f0 !important;
+    }
+    html.light #ticket .bg-navy-950\/80 {
+      background-color: #f1f5f9 !important;
+      border-color: #e2e8f0 !important;
+    }
+    html.light #ticket .border-dashed {
+      border-color: #cbd5e1 !important;
+    }
+    html.light #ticket .bg-slate-300 {
+      background-color: #0f172a !important; /* Crisp dark barcode */
+    }
+
+    /* Form Fields & Trip Planner in Light Mode */
+    html.light #travelInquiryForm .bg-navy-950 {
+      background-color: #ffffff !important;
+    }
+    html.light #travelInquiryForm .bg-navy-900 {
+      background-color: #f1f5f9 !important;
+      border-color: #e2e8f0 !important;
+    }
+    html.light input,
+    html.light select,
+    html.light textarea {
+      background-color: #ffffff !important;
+      color: #0f172a !important;
+      border-color: #cbd5e1 !important;
+    }
+    html.light input:focus,
+    html.light select:focus,
+    html.light textarea:focus {
+      background-color: #ffffff !important;
+      border-color: #2563eb !important;
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15) !important;
+    }
+    html.light input::placeholder,
+    html.light textarea::placeholder {
+      color: #94a3b8 !important;
+    }
+    html.light .trip-type-label:not(.bg-royal-600) {
+      color: #475569 !important;
+    }
+
+    /* Mobile Dropdown Menu */
+    html.light #mobileMenu {
+      background-color: #ffffff !important;
+      border-color: #e2e8f0 !important;
+    }
+    html.light #mobileMenu a {
+      color: #1e293b !important;
+      border-color: #f1f5f9 !important;
+    }
+
+    /* Borders in Light Mode */
+    html.light .border-slate-800,
+    html.light .border-slate-800\/80,
+    html.light .border-slate-800\/60,
+    html.light .border-slate-700,
+    html.light .border-slate-700\/80,
+    html.light .border-slate-700\/60,
+    html.light .border-white\/5,
+    html.light .border-white\/10 {
+      border-color: #e2e8f0 !important;
+    }
+
+    /* Keep Portrait Photo Shell Dark & Cinematic in both themes */
+    html.light #hero .aspect-\[4\/5\] .bg-navy-950 {
+      background-color: #060a17 !important;
+    }
+    html.light #hero .aspect-\[4\/5\] h3,
+    html.light #hero .aspect-\[4\/5\] .text-white {
+      color: #ffffff !important;
+    }
+
+    /* Footer in Light Mode */
+    html.light footer {
+      background-color: #f8fafc !important;
+      border-color: #e2e8f0 !important;
+    }
   </style>
 </head>
 
@@ -179,11 +341,11 @@
             </div>
           </div>
           <div>
-            <div class="font-heading font-extrabold text-base sm:text-lg tracking-tight text-white flex items-center gap-1.5" id="navBrandName">
+            <div class="font-heading font-extrabold text-base sm:text-lg tracking-tight text-slate-900 dark:text-white flex items-center gap-1.5" id="navBrandName">
               M. R. K. BAPPI
               <span class="inline-block w-2 h-2 rounded-full bg-crimson-500 animate-ping"></span>
             </div>
-            <p class="text-[11px] font-medium text-slate-400 tracking-wider uppercase flex items-center gap-1">
+            <p class="text-[11px] font-medium text-slate-500 dark:text-slate-400 tracking-wider uppercase flex items-center gap-1">
               <span>✈</span> Travel Consultant • Riyadh
             </p>
           </div>
@@ -267,22 +429,22 @@
 
           <!-- Main Catchphrase -->
           <h1 class="text-4xl sm:text-5xl lg:text-6xl font-heading font-black tracking-tight leading-[1.12] mb-5">
-            <span>Seamless Journeys,</span><br/>
+            <span class="text-slate-900 dark:text-white">Seamless Journeys,</span><br/>
             <span class="text-gradient-royal-red">Global Horizons.</span>
           </h1>
 
           <!-- Consultant Name & Verified Title -->
           <div class="mb-5">
             <div class="flex items-center justify-center lg:justify-start gap-2.5 mb-1.5">
-              <h2 class="text-2xl sm:text-3xl font-heading font-bold text-white tracking-tight" id="heroNameText">
+              <h2 class="text-2xl sm:text-3xl font-heading font-bold text-slate-900 dark:text-white tracking-tight" id="heroNameText">
                 Mohammed Rezaul Karim Bappi
               </h2>
               <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-royal-600 text-white text-xs shadow-md shadow-royal-600/40" title="Verified Travel Consultant">
                 ✓
               </span>
             </div>
-            <p class="text-crimson-400 font-semibold text-sm sm:text-base tracking-wide flex items-center justify-center lg:justify-start gap-2">
-              <span class="text-royal-400">✈</span> International Travel Consultant & Umrah Booking Specialist
+            <p class="text-crimson-600 dark:text-crimson-400 font-semibold text-sm sm:text-base tracking-wide flex items-center justify-center lg:justify-start gap-2">
+              <span class="text-royal-600 dark:text-royal-400">✈</span> International Travel Consultant & Umrah Booking Specialist
             </p>
           </div>
 
@@ -1114,6 +1276,13 @@
     themeToggleBtn.addEventListener('click', () => {
       const isCurrentlyDark = document.documentElement.classList.contains('dark');
       applyTheme(!isCurrentlyDark);
+    });
+
+    // Initialize Lucide Icons on load
+    window.addEventListener('DOMContentLoaded', () => {
+      if (window.lucide) {
+        lucide.createIcons();
+      }
     });
 
     // 4. Mobile Menu Toggle
